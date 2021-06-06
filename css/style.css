@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: #e3ebee;
+}
+* {
+  box-sizing: border-box;
+}
+.headerSection {
+}
+
+.opacity {
+  opacity: 0.6;
+}
+.card {
+  border: 0;
+  padding: 12px 8px;
+  height: 320px;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+.imgProducts {
+  width: 100% !important;
+  height: 183.04px !important;
+  border-radius: 8px;
+}
+.borderRadius {
+}
+.clothingForMen {
+  width: 100%;
+  alig
+}
+
+.mySwiper {
+  position: relative;
+}
+.headerSection {
+  position: absolute;
+  top: 200px;
+  background-color: transparent;
+  z-index: 2;
+}
+footer {
+  background-color: rgb(124, 124, 124);
+}
+
+.footerLink {
+  color: #c8cbcc;
+}
+.footerLink:hover {
+  color: #ffffff;
+}
+.btn-outline-success{
+    position: absolute;
+    right: 65px;
+} #shop{
+    padding: 0 15px;
+}
