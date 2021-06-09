@@ -106,13 +106,15 @@ footer {
   color: #2a3340;
   margin-top: 4px;
 }
+
 .half {
   width: 40%;
 }
 .full {
   width: calc(80% + 4);
 }
-.swiper-slide img {
+.swiper-slide {
+  height: 100%;
 }
 .registerBody {
   display: flex;
