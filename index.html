@@ -1,275 +1,165 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-    />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-
-    <!-- Demo styles -->
-    <style>
-      html,
-      body {
-        position: relative;
-        height: 100%;
-      }
-
-      body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-      }
-
-      .swiper-container {
-        width: 100%;
-        height: 80%;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
-
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-
-        width: 100%;
-      }
-    </style>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="px-3 d-flex py-2 justify-content-between align-items-center">
-        <h1><b>Sardor</b></h1>
-        <div class="d-flex  align-items-center">  
-            <nav class="navbar navbar-light  ">
-                <form class="form-inline">
-                  <input class="form-control mr-sm-5" style="width: 400px !important;" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-              </nav>
-              <a href=""><i class="fas fa-user h2"></i></a>
-            <a href="" id="shop" onclick="push()"><i class="fab fa-shopify h2"></i></a>
-        </div>
-      </div>
-    </header>
-    <!-- Swiper -->
-    <div class="swiper-container mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img
-            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Computers_1x._CB432469755_.jpg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Home_v2_en_US_1x._CB429090084_.jpg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Beauty_v2_en_US_1x._CB429089975_.jpg"
-            alt=""
-          />
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="https://images-na.ssl-images-amazon.com/images/G/01/CurrencyConverter/2020/AMZ_Associates_ACC_Banner_Evergreen_1500x600_v2._CB415565312_.jpg"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
-    <section id="products" class="headerSection">
-      <div class="pb-4 px-4">
-        <div class="row">
-          <div class="col-6 col-md-3">
-            <div data-aos="zoom-in" class="card">
-              <h4 class="text-center">Electronic</h4>
-              <img
-                data-aos="flip-left"
-                class="imgProducts w-100"
-                src="https://blessingstelecom.com/img/developerimg/choco_blessingstelecom_20200113100659_db/mebase/CustomSectionStyle/Images/original_200219061202_5e4cd1b2c5eb3.jpg"
-                alt=""
-              />
-              <a href="./sections/electronic.html" class="py-3 opacity"
-                >See More</a
-              >
+  <!DOCTYPE html>
+  <html lang="en">
+     <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+      <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+          crossorigin="anonymous"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous"/>
+        <!-- Link Swiper's CSS -->
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/swiper/swiper-bundle.min.css"/> 
+        <!-- Demo styles -->
+        <style>
+          html,
+          body {
+            position: relative;
+            height: 100%;
+          } 
+          body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+          } 
+          .swiper-container {
+            width: 100%;
+            height: 90%;
+          } 
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff; 
+            /* Center slide text vertically */ 
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+          } 
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            
+height: 100%;
+            
+          }
+        </style>
+        <link rel="stylesheet" href="./css/style.css" />
+      </head>
+      <body>
+        <header>
+          <div class="px-3 d-flex py-2 justify-content-between align-items-center">
+            <h1><b>Sardor</b></h1>
+            <div class="d-flex  align-items-center">  
+                <nav class="navbar navbar-light  ">
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-5" style="width: 400px !important;" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                  </nav>
+                  <a href="/register.html"><i class="fas fa-user h2"></i></a>
+                <a href="" id="shop" onclick="push()"><i class="fab fa-shopify h2"></i></a>
             </div>
           </div>
-          <div class="col-6 col-md-3">
-            <div data-aos="zoom-in" class="card">
-              <h4 class="text-center">Household</h4>
+        </header>
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide">
               <img
-                data-aos="flip-left"
-                class="imgProducts w-100"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7k6w-OlJCMEZ8jg2VY07V_3DcR-l4MC5x0Q&usqp=CAU"
+                src="./images/ice_screenshot_20210607-215204.png"
+                alt=""/>
+            </div>
+            <div class="swiper-slide">
+              <img
+              class=" "
+                src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Home_v2_en_US_1x._CB429090084_.jpg"
                 alt=""
               />
-              <a href="#" class="py-3 opacity">See More</a>
             </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div data-aos="zoom-in" class="card">
-              <h4 class="text-center">Get fit at home</h4>
+            <div class="swiper-slide">
               <img
-                data-aos="flip-left"
-                class="imgProducts w-100"
-                src="https://cdn.mos.cms.futurecdn.net/CAJeRUErxAgTFRuhaTb8q6-1200-80.jpg"
+                src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Beauty_v2_en_US_1x._CB429089975_.jpg"
                 alt=""
               />
-              <a href="#" class="py-3 opacity">See More</a>
             </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div data-aos="zoom-in" class="card">
-              <h4 class="text-center">Explore home bedding</h4>
+            <div class="swiper-slide">
               <img
-                data-aos="flip-left"
-                class="imgProducts w-100"
-                src="https://au.koala.com/images/Home/pillow_mobile.jpg"
+                src="https://images-na.ssl-images-amazon.com/images/G/01/CurrencyConverter/2020/AMZ_Associates_ACC_Banner_Evergreen_1500x600_v2._CB415565312_.jpg"
                 alt=""
               />
-              <a href="#" class="py-3 opacity">See More</a>
             </div>
           </div>
-          <div class="col-6 col-md-3">
-            <div data-aos="zoom-in" class="card">
-              <h4 class="text-center">clothing</h4>
-              <div class="row">
-                <div class="col-6">
-                  <h5>For men</h5>
-                  <img
-                    class="clothingForMen"
-                    src="https://image.shutterstock.com/image-photo/mood-board-fashion-clothes-outfit-260nw-1597811476.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="col-6">
-                  <h5 class="forWomen">For women</h5>
-                  <img
-                    class="clothingForMen"
-                    src="https://previews.123rf.com/images/ivastasya/ivastasya1708/ivastasya170800008/85253067-set-of-stylish-clothes-collection-of-women-s-clothing.jpg"
-                    alt=""
-                  />
+        </div>
+        <section id="products" class="headerSection">
+          <div class="pb-4 px-4">
+            <div class="row" id="boss">
+            
+              <div class=" col-6 col-sm-6 col-md-4 col-lg-3 " >
+                <div data-aos="zoom-in" class="card">
+             
                 </div>
               </div>
-              <a href="#" class="py-3 opacity">See More</a>
             </div>
           </div>
-          <div class="col-6 col-md-3">
-            <div data-aos="zoom-in" class="card">
-              <h4 class="text-center">Beauty picks</h4>
-              <img
-                class="imgProducts w-100"
-                src="https://images.unsplash.com/photo-1521837670401-2bd439d49e6d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fGJlYXV0eSUyMHBpY2tzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-              <a href="#" class="py-3 opacity">See More</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div data-aos="zoom-in" class="card">
-              <h4 class="text-center">Furnitures</h4>
-              <img
-                class="imgProducts w-100"
-                src="https://images.unsplash.com/photo-1616464916356-3a777b2b60b1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGZ1cm5pdHVyZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-              <a href="#" class="py-3 opacity">See More</a>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div data-aos="zoom-in" class="card">
-              <h4 class="text-center">Beauty picks</h4>
-              <img
-                class="imgProducts w-100"
-                src="https://images.unsplash.com/photo-1521837670401-2bd439d49e6d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fGJlYXV0eSUyMHBpY2tzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                alt=""
-              />
-              <a href="#" class="py-3 opacity">See More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <footer>
-       <div class="container py-5">
-        <div class="row">
-            <div class="col-4">
-                <a href="#products" class="footerLink   w-100"><h3><b>Products</b></h3></a>
-                <a href="#shop" class="footerLink h3"><h3><b>shopping</b></h3></a>
-                <a href="#products" class="footerLink h3"><b>Products</b></a>
+          <footer>
+          <div class="container py-5">
+            <div class="row">
+                <div class="col-4">
+                    <a href="#products" class="footerLink   w-100"><h3><b>Products</b></h3></a>
+                    <a href="#shop" class="footerLink h3"><h3><b>shopping</b></h3></a>
+                    <a href="#products" class="footerLink h3"><b>Products</b></a>
 
-            </div>
-            </div>
+                </div>
+                </div>
+              </div>
           </div>
-       </div>
-      </footer>
-    </section>
-    <script src="./js/main.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          </footer>
+        </section>
+        <script src="./js/main.js"></script>
+        <script
+          src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+          crossorigin="anonymous"
+        ></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-  </body>
-</html>
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+          });
+        </script>
+      </body>
+    </html>
